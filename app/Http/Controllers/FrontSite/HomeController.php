@@ -10,4 +10,8 @@ class HomeController extends Controller
     function index(){
         return view('FrontSite.pages.home.homeIndex');
     }
+
+    function about(){
+        return view('FrontSite.pages.about.aboutIndex');
+    }
 }
